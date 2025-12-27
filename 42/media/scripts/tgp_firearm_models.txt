@@ -1,0 +1,50 @@
+module Base
+{
+	model BattleRifle
+    {
+        mesh = weapons/firearm/ScarH,
+        texture = weapons/firearm/ScarH,
+
+        attachment scope
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+
+        attachment scope2
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+
+        attachment recoilpad
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+
+        attachment reddot
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+
+        attachment laser
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+
+        attachment world
+        {
+            offset = 0.0117 -0.0001 -0.0000,
+            rotate = 180.0000 -0.0000 -179.4195,
+        }
+
+        attachment muzzle
+        {
+            offset = 0.0000 0.4019 0.0343,
+            rotate = -90.0 0.0000 0.0000,
+        }
+    }
+}
