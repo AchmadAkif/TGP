@@ -2,7 +2,7 @@ module Base
 {
 	model BattleRifle
     {
-        mesh = weapons/firearm/ScarH,
+        mesh = weapons/firearm/ScarH1.00onExport,
         texture = weapons/firearm/ScarH,
 
         attachment scope
