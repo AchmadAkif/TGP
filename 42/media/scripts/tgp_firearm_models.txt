@@ -2,7 +2,7 @@ module Base
 {
 	model BattleRifle
     {
-        mesh = weapons/firearm/ScarH1.00onExport,
+        mesh = weapons/firearm/ScarH1,
         texture = weapons/firearm/ScarH,
 
         attachment scope
@@ -43,8 +43,8 @@ module Base
 
         attachment muzzle
         {
-            offset = 0.0000 0.4019 0.0343,
-            rotate = -90.0 0.0000 0.0000,
+            offset = 0.0000 0.4194 0.0354,
+            rotate = -90.0000 0.0000 0.0000,
         }
     }
 }
