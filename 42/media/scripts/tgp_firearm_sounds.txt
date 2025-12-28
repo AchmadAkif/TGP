@@ -1,0 +1,14 @@
+module Base
+{
+  sound ScarHShoot
+  {
+    category = Item,
+    maxInstancesPerEmitter = 2,
+    is3D = true,
+    clip
+    {
+        file = media/sound/weapons/firearm/ScarhSingle.wav,
+        distanceMax = 1000,
+    }
+  }
+}
