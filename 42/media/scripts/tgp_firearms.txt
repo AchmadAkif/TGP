@@ -43,7 +43,7 @@ module Base
         JamGunChance = 1,
         KnockBackOnNoDeath = true,
         KnockdownMod = 2.0,
-        MagazineType = Base.M14Clip,
+        MagazineType = Base.ScarH_Mag,
         MaxAmmo = 20,
         MaxDamage = 2.0,
         MaxHitcount = 1,
@@ -93,5 +93,20 @@ module Base
         WeaponReloadType = boltaction,
         WeaponSprite = BattleRifle,
         Tags = base:hasmetal;base:firearm,
+    }
+
+    item ScarH_Mag
+    {
+        DisplayCategory = Ammo,
+        DisplayName = Scar-H Magazine,
+        ItemType = base:normal,
+        Weight = 0.2,
+        Icon = 308Clip,
+        AmmoType = base:bullets_308,
+        CanStack = false,
+        GunType = Base.BattleRifle,
+        MaxAmmo = 20,
+        WorldStaticModel = BattleRifle_Mag,
+        Tags = base:hasmetal;base:riflemagazine,
     }
 }

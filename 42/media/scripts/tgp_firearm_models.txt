@@ -47,4 +47,10 @@ module Base
             rotate = -90.0000 0.0000 0.0000,
         }
     }
+
+    model BattleRifle_Mag
+    {
+        mesh = weapons/ammo/ScarH_Mag,
+        texture = weapons/firearm/ScarH,
+    }
 }
