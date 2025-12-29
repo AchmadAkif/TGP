@@ -55,12 +55,12 @@ module Base
         MinDamage = 1.2,
         MinRange = 0.61,
         MinimumSwingtime = 0.5,
-        ModelWeaponPart = TritiumSights IronSight scope2 scope2,
         ModelWeaponPart = Laser Laser laser laser,
         ModelWeaponPart = RecoilPad RecoilPad recoilpad recoilpad,
         ModelWeaponPart = RedDot RedDot reddot reddot,
         ModelWeaponPart = x2Scope x2Scope scope scope,
         ModelWeaponPart = x4Scope x4Scope scope scope,
+        ModelWeaponPart = x8Scope x8Scope scope2 scope2,
         MultipleHitConditionAffected = false,
         MuzzleFlashModelKey = muzzle_flash_assault_rifle02,
         NPCSoundBoost = 1.5,
@@ -90,7 +90,7 @@ module Base
         UnequipSound = M14UnEquip,
         UseEndurance = false,
         WeaponReloadType = boltaction,
-        WeaponSprite = BattleRifle,
+        WeaponSprite = BattleRifle_NoMag,
         Tags = base:hasmetal;base:firearm,
     }
 
