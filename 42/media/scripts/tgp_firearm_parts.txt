@@ -1,0 +1,17 @@
+module Base
+{
+	item x2Scope
+	{
+		MountOn = Base.HuntingRifle;Base.VarmintRifle;Base.AssaultRifle;Base.AssaultRifle2;Base.Revolver_Long;Base.Shotgun;Base.ShotgunSawnoff;Base.BattleRifle,
+	}
+
+	item x4Scope
+	{
+		MountOn = Base.HuntingRifle;Base.VarmintRifle;Base.AssaultRifle;Base.AssaultRifle2;Base.BattleRifle,
+	}
+
+	item x8Scope
+	{
+		MountOn = Base.HuntingRifle;Base.VarmintRifle;Base.BattleRifle,
+	}
+}
