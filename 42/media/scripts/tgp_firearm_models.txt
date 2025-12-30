@@ -95,6 +95,103 @@ module Base
             rotate = -90.0000 0.0000 0.0000,
         }
     }
+
+    model BattleRifle_SightDown
+    {
+        mesh = weapons/firearm/ScarH_SightDown,
+        texture = weapons/firearm/ScarH,
+
+        attachment scope
+        {
+            offset = 0.0000 0.0560 0.0814,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+
+        attachment scope2
+        {
+            offset = 0.0000 0.0179 0.0818,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+
+        attachment recoilpad
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+
+        attachment reddot
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+
+        attachment laser
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+
+        attachment world
+        {
+            offset = 0.0117 -0.0001 -0.0000,
+            rotate = 180.0000 -0.0000 -179.4195,
+        }
+
+        attachment muzzle
+        {
+            offset = 0.0000 0.4128 0.0365,
+            rotate = -90.0000 0.0000 0.0000,
+        }
+    }
+
+    model BattleRifle_NoMag_SightDown
+    {
+        mesh = weapons/firearm/ScarH_NoMag_SightDown,
+        texture = weapons/firearm/ScarH,
+
+        attachment scope
+        {
+            offset = 0.0000 0.0560 0.0814,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+
+        attachment scope2
+        {
+            offset = 0.0000 0.0179 0.0818,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+
+        attachment recoilpad
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+
+        attachment reddot
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+
+        attachment laser
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+
+        attachment world
+        {
+            offset = 0.0117 -0.0001 -0.0000,
+            rotate = 180.0000 -0.0000 -179.4195,
+        }
+
+        attachment muzzle
+        {
+            offset = 0.0000 0.4128 0.0365,
+            rotate = -90.0000 0.0000 0.0000,
+        }
+    }
+
 	model BattleRifle_Mag
     {
         mesh = weapons/ammo/ScarH_Mag,
