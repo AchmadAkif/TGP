@@ -1,5 +1,6 @@
 module Base
 {
+	// ***** GUNS *****// 
 	item BattleRifle
     {
         DisplayCategory = Weapon,
@@ -60,6 +61,7 @@ module Base
         ModelWeaponPart = RedDot RedDot reddot reddot,
         ModelWeaponPart = x2Scope x2Scope scope scope,
         ModelWeaponPart = x4Scope x4Scope scope scope,
+        ModelWeaponPart = x6Elcan x6Elcan scope scope,
         ModelWeaponPart = x8Scope x8Scope scope2 scope2,
         MultipleHitConditionAffected = false,
         MuzzleFlashModelKey = muzzle_flash_assault_rifle02,
@@ -94,6 +96,7 @@ module Base
         Tags = base:hasmetal;base:firearm,
     }
 
+	// ***** MAGAZINES *****// 
     item ScarH_Mag
     {
         DisplayCategory = Ammo,

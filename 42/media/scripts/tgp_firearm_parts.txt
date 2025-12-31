@@ -1,5 +1,6 @@
 module Base
 {
+	// ***** SCOPE *****// 
 	item x2Scope
 	{
 		MountOn = Base.HuntingRifle;Base.VarmintRifle;Base.AssaultRifle;Base.AssaultRifle2;Base.Revolver_Long;Base.Shotgun;Base.ShotgunSawnoff;Base.BattleRifle,
@@ -10,8 +11,31 @@ module Base
 		MountOn = Base.HuntingRifle;Base.VarmintRifle;Base.AssaultRifle;Base.AssaultRifle2;Base.BattleRifle,
 	}
 
+	item x6Elcan
+	{
+		DisplayCategory = WeaponPart,
+		DisplayName = x6 Elcan SpecterDR,
+		ItemType = base:weaponpart,
+		Icon = Sight_6xELCAN,
+		Weight = 0.8,
+		WeightModifier = 0.8,
+		AimingTimeModifier = 20,
+		MaxSightRange = 22.0,
+		MinSightRange = 15,
+		Tags = base:optics,
+		MountOn = Base.BattleRifle,
+		PartType = Scope,
+		Tooltip = Tooltip_Scope,
+		MetalValue = 22.0,
+		WorldStaticModel = x6Elcan,
+		CanAttach = ItemCodeOnTest.hasScrewdriver,
+		CanDetach = ItemCodeOnTest.hasScrewdriver,
+	}
+
 	item x8Scope
 	{
 		MountOn = Base.HuntingRifle;Base.VarmintRifle;Base.BattleRifle,
 	}
+
+	// ***** GRIP *****// 
 }

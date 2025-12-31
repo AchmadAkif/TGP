@@ -7,7 +7,7 @@ module Base
 
         attachment scope
         {
-            offset = 0.0000 0.0560 0.0814,
+            offset = 0.0000 0.0338 0.0814,
             rotate = 0.0000 0.0000 0.0000,
         }
 
@@ -43,11 +43,10 @@ module Base
 
         attachment muzzle
         {
-            offset = 0.0000 0.4128 0.0365,
+            offset = 0.0000 0.4489 0.0365,
             rotate = -90.0000 0.0000 0.0000,
         }
     }
-
 	model BattleRifle_NoMag
     {
         mesh = weapons/firearm/ScarH_NoMag,
@@ -95,8 +94,7 @@ module Base
             rotate = -90.0000 0.0000 0.0000,
         }
     }
-
-    model BattleRifle_SightDown
+	model BattleRifle_SightDown
     {
         mesh = weapons/firearm/ScarH_SightDown,
         texture = weapons/firearm/ScarH,
@@ -143,8 +141,7 @@ module Base
             rotate = -90.0000 0.0000 0.0000,
         }
     }
-
-    model BattleRifle_NoMag_SightDown
+	model BattleRifle_NoMag_SightDown
     {
         mesh = weapons/firearm/ScarH_NoMag_SightDown,
         texture = weapons/firearm/ScarH,
@@ -191,10 +188,14 @@ module Base
             rotate = -90.0000 0.0000 0.0000,
         }
     }
-
 	model BattleRifle_Mag
     {
         mesh = weapons/ammo/ScarH_Mag,
         texture = weapons/firearm/ScarH,
+    }
+	model x6Elcan
+    {
+        mesh = weapons/parts/elcanSpecter,
+        texture = weapons/parts/Sight_elcanSpecter, 
     }
 }
