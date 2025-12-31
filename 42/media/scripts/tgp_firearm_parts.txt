@@ -1,6 +1,5 @@
 module Base
 {
-	// ***** SCOPE *****// 
 	item x2Scope
 	{
 		MountOn = Base.HuntingRifle;Base.VarmintRifle;Base.AssaultRifle;Base.AssaultRifle2;Base.Revolver_Long;Base.Shotgun;Base.ShotgunSawnoff;Base.BattleRifle,
@@ -37,5 +36,4 @@ module Base
 		MountOn = Base.HuntingRifle;Base.VarmintRifle;Base.BattleRifle,
 	}
 
-	// ***** GRIP *****// 
 }

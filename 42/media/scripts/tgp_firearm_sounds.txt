@@ -11,4 +11,16 @@ module Base
         distanceMax = 1000,
     }
   }
+
+  sound Glock19Shoot
+  {
+    category = Item,
+    maxInstancesPerEmitter = 2,
+    is3D = true,
+    clip
+    {
+        file = media/sound/weapons/firearm/glock19Shot.wav,
+        distanceMax = 1000,
+    }
+  }
 }
