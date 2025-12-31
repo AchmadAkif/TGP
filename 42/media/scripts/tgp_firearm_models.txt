@@ -7,6 +7,53 @@ module Base
 
         attachment scope
         {
+            offset = 0.0000 0.0338 0.0814,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+
+        attachment scope2
+        {
+            offset = 0.0000 0.0179 0.0818,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+
+        attachment recoilpad
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+
+        attachment reddot
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+
+        attachment laser
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+
+        attachment world
+        {
+            offset = 0.0117 -0.0001 -0.0000,
+            rotate = 180.0000 -0.0000 -179.4195,
+        }
+
+        attachment muzzle
+        {
+            offset = 0.0000 0.4489 0.0365,
+            rotate = -90.0000 0.0000 0.0000,
+        }
+    }
+	model BattleRifle_NoMag
+    {
+        mesh = weapons/firearm/ScarH_NoMag,
+        texture = weapons/firearm/ScarH,
+
+        attachment scope
+        {
             offset = 0.0000 0.0560 0.0814,
             rotate = 0.0000 0.0000 0.0000,
         }
@@ -47,10 +94,56 @@ module Base
             rotate = -90.0000 0.0000 0.0000,
         }
     }
-
-	model BattleRifle_NoMag
+	model BattleRifle_SightDown
     {
-        mesh = weapons/firearm/ScarH_NoMag,
+        mesh = weapons/firearm/ScarH_SightDown,
+        texture = weapons/firearm/ScarH,
+
+        attachment scope
+        {
+            offset = 0.0000 0.0560 0.0814,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+
+        attachment scope2
+        {
+            offset = 0.0000 0.0179 0.0818,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+
+        attachment recoilpad
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+
+        attachment reddot
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+
+        attachment laser
+        {
+            offset = 0.0000 0.0000 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+
+        attachment world
+        {
+            offset = 0.0117 -0.0001 -0.0000,
+            rotate = 180.0000 -0.0000 -179.4195,
+        }
+
+        attachment muzzle
+        {
+            offset = 0.0000 0.4128 0.0365,
+            rotate = -90.0000 0.0000 0.0000,
+        }
+    }
+	model BattleRifle_NoMag_SightDown
+    {
+        mesh = weapons/firearm/ScarH_NoMag_SightDown,
         texture = weapons/firearm/ScarH,
 
         attachment scope
@@ -99,5 +192,57 @@ module Base
     {
         mesh = weapons/ammo/ScarH_Mag,
         texture = weapons/firearm/ScarH,
+    }
+	model Glock_19
+    {
+        mesh = weapons/firearm/Glock_19,
+        texture = weapons/firearm/Glock_19,
+
+        attachment muzzle
+        {
+            offset = 0.0000 0.1125 -0.0225,
+            rotate = -90.0000 0.0000 0.0000,
+        }
+
+        attachment reddot
+        {
+            offset = 0.0010 0.0440 -0.0400,
+            rotate = 1.0000 1.0000 1.0000,
+        }
+
+        attachment gunlight
+        {
+            offset = 0.0000 0.0878 -0.0001,
+            rotate = 1.0000 1.0000 1.0000,
+        }
+
+        attachment scope
+        {
+            offset = 0.0000 0.0264 -0.0337,
+            rotate = 180.0000 0.0000 0.0000,
+        }
+
+        attachment laser
+        {
+            offset = 0.0000 0.0900 -0.0021,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+
+        attachment world
+        {
+            offset = -0.0090 0.0620 0.0000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+
+        attachment Bip01_Prop2
+        {
+            offset = -0.0338 0.0424 0.0000,
+            rotate = 90.0008 1.1964 -90.0396,
+        }
+    }
+	model x6Elcan
+    {
+        mesh = weapons/parts/elcanSpecter,
+        texture = weapons/parts/Sight_elcanSpecter, 
     }
 }
