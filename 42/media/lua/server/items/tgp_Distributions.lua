@@ -7,18 +7,22 @@ local tgpDistribution = {
       "ScarH_Mag", 8,
       "Glock19", 20,
 			"Glock19", 10,
+      "Glock19_Mag", 20,
+			"Glock19_Mag", 10,
     }
   },
 
   FirearmWeapons = {
     items = {
       "Glock19", 8,
+      "Glock19_Mag", 10,
     }
   },
 
   FirearmWeapons_Mid = {
     items = {
       "Glock19", 8,
+      "Glock19_Mag", 10,
     }
   },
   
@@ -27,6 +31,7 @@ local tgpDistribution = {
       "BattleRifle", 1,
       "ScarH_Mag", 4,
       "Glock19", 8,
+      "Glock19_Mag", 10,
     }
   },
   
@@ -34,6 +39,7 @@ local tgpDistribution = {
     items = {
       "BattleRifle", 0.001,
       "ScarH_Mag", 0.1,
+      "Glock19_Mag", 0.1,
     }
   },
 
@@ -79,42 +85,59 @@ local tgpDistribution = {
     items = {
       "Glock19", 50,
       "Glock19", 20,
+      "Glock19_Mag", 50,
+			"Glock19_Mag", 20,
+			"Glock19_Mag", 20,
+			"Glock19_Mag", 10,
     }
   },
 
   PoliceTools = {
     items = {
       "Glock19", 20,
+      "Glock19_Mag", 10,
     }
   },
 
   SecurityDesk = {
     items = {
       "Glock19", 0.1,
+      "Glock19_Mag", 0.1,
     }
   },
 
   SecurityLockers = {
     items = {
       "Glock19", 0.1,
+      "Glock19_Mag", 0.1,
     }
   },
 
   GunStoreGuns = {
     items = {
       "Glock19", 10,
+      "Glock19_Mag", 8,
     }
   },
 
   GunStorePistols = {
     items = {
       "Glock19", 50,
+      "Glock19_Mag", 20,
+    }
+  },
+
+  GunStoreMagsAmmo = {
+    items = {
+      "Glock19_Mag", 50,
+      "Glock19_Mag", 20,
     }
   },
 
   DrugLabGuns = {
     items = {
       "Glock19", 8,
+      "Glock19_Mag", 8,
     }
   },
 
