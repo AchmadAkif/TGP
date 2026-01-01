@@ -36,4 +36,18 @@ module Base
 		MountOn = Base.HuntingRifle;Base.VarmintRifle;Base.BattleRifle,
 	}
 
+	item RedDot
+	{
+		MountOn = Base.AssaultRifle;Base.AssaultRifle2;Base.BattleRifle,
+	}
+
+	item Laser
+	{
+		MountOn = Base.Pistol;Base.Pistol2;Base.Pistol3;Base.AssaultRifle;Base.AssaultRifle2;Base.BattleRifle;Base.Glock19,
+	}
+
+	item RecoilPad
+	{
+		MountOn = Base.AssaultRifle;Base.AssaultRifle2;Base.BattleRifle;Base.HuntingRifle;Base.VarmintRifle;Base.Shotgun;Base.ShotgunSawnoff;Base.DoubleBarrelShotgun,
+	}
 }

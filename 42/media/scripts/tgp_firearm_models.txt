@@ -19,20 +19,22 @@ module Base
 
         attachment recoilpad
         {
-            offset = 0.0000 0.0000 0.0000,
+            offset = 0.0000 -0.1507 0.0047,
             rotate = 0.0000 0.0000 0.0000,
+            scale = 1.1554,
         }
 
         attachment reddot
         {
-            offset = 0.0000 0.0000 0.0000,
-            rotate = 0.0000 0.0000 0.0000,
+            offset = 0.0000 0.0250 0.0783,
+            rotate = 180.0000 -1.6575 180.0000,
+            scale = 0.7309,
         }
 
         attachment laser
         {
-            offset = 0.0000 0.0000 0.0000,
-            rotate = 0.0000 0.0000 0.0000,
+            offset = -0.0203 0.1938 0.0400,
+            rotate = -180.0000 -73.4259 180.0000,
         }
 
         attachment world
@@ -66,20 +68,22 @@ module Base
 
         attachment recoilpad
         {
-            offset = 0.0000 0.0000 0.0000,
+            offset = 0.0000 -0.1507 0.0047,
             rotate = 0.0000 0.0000 0.0000,
+            scale = 1.1554,
         }
 
         attachment reddot
         {
-            offset = 0.0000 0.0000 0.0000,
-            rotate = 0.0000 0.0000 0.0000,
+            offset = 0.0000 0.0250 0.0783,
+            rotate = 180.0000 -1.6575 180.0000,
+            scale = 0.7309,
         }
 
         attachment laser
         {
-            offset = 0.0000 0.0000 0.0000,
-            rotate = 0.0000 0.0000 0.0000,
+            offset = -0.0203 0.1938 0.0400,
+            rotate = -180.0000 -73.4259 180.0000,
         }
 
         attachment world
@@ -113,20 +117,22 @@ module Base
 
         attachment recoilpad
         {
-            offset = 0.0000 0.0000 0.0000,
+            offset = 0.0000 -0.1507 0.0047,
             rotate = 0.0000 0.0000 0.0000,
+            scale = 1.1554,
         }
 
         attachment reddot
         {
-            offset = 0.0000 0.0000 0.0000,
-            rotate = 0.0000 0.0000 0.0000,
+            offset = 0.0000 0.0250 0.0783,
+            rotate = 180.0000 -1.6575 180.0000,
+            scale = 0.7309,
         }
 
         attachment laser
         {
-            offset = 0.0000 0.0000 0.0000,
-            rotate = 0.0000 0.0000 0.0000,
+            offset = -0.0203 0.1938 0.0400,
+            rotate = -180.0000 -73.4259 180.0000,
         }
 
         attachment world
@@ -160,20 +166,22 @@ module Base
 
         attachment recoilpad
         {
-            offset = 0.0000 0.0000 0.0000,
+            offset = 0.0000 -0.1507 0.0047,
             rotate = 0.0000 0.0000 0.0000,
+            scale = 1.1554,
         }
 
         attachment reddot
         {
-            offset = 0.0000 0.0000 0.0000,
-            rotate = 0.0000 0.0000 0.0000,
+            offset = 0.0000 0.0250 0.0783,
+            rotate = 180.0000 -1.6575 180.0000,
+            scale = 0.7309,
         }
 
         attachment laser
         {
-            offset = 0.0000 0.0000 0.0000,
-            rotate = 0.0000 0.0000 0.0000,
+            offset = -0.0203 0.1938 0.0400,
+            rotate = -180.0000 -73.4259 180.0000,
         }
 
         attachment world
@@ -206,14 +214,16 @@ module Base
 
         attachment reddot
         {
-            offset = 0.0010 0.0440 -0.0400,
+            offset = 0.0010 0.0109 -0.0314,
             rotate = 1.0000 1.0000 1.0000,
+            scale = 0.5081,
         }
 
         attachment gunlight
         {
-            offset = 0.0000 0.0878 -0.0001,
+            offset = 0.0000 0.0878 -0.0013,
             rotate = 1.0000 1.0000 1.0000,
+            scale = 0.4623,
         }
 
         attachment scope
@@ -224,8 +234,9 @@ module Base
 
         attachment laser
         {
-            offset = 0.0000 0.0900 -0.0021,
+            offset = 0.0000 0.0776 -0.0021,
             rotate = 0.0000 0.0000 0.0000,
+            scale = 0.5685,
         }
 
         attachment world

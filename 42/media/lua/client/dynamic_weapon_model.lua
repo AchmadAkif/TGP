@@ -28,17 +28,39 @@ end
 local function handleAttachScope(args)
   local weapon = args.weapon
   local weaponPart = args.weaponPart
+
+  -- Prevent behavior for vanilla guns
+  local currentWeaponDisplayName = weapon:getDisplayName()
+  if not tgpWeaponDisplayNames[currentWeaponDisplayName] then
+    return
+  end
   
   local base, hasNoMagSuffix, _ = parseSpriteState(weapon:getWeaponSprite())
   local isScope = weaponPart:getPartType() == 'Scope'
-  setSpriteState(weapon, hasNoMagSuffix, isScope)
+
+  if isScope then
+    setSpriteState(weapon, hasNoMagSuffix, isScope)
+  end
 end
 
+-- TODO: Investigate model not refreshed after detaching part even in vanilla guns
 local function handleDetachScope(args)
+  local char = args.char
   local weapon = args.weapon
+  local detachedPartType = args.detachedPartType
+
+  -- Prevent behavior for vanilla guns
+  local currentWeaponDisplayName = weapon:getDisplayName()
+  if not tgpWeaponDisplayNames[currentWeaponDisplayName] then
+    return
+  end
 
   local base, hasNoMagSuffix, _ = parseSpriteState(weapon:getWeaponSprite())
-  setSpriteState(weapon, hasNoMagSuffix, false)
+  local isScope = detachedPartType == "Scope"
+
+  if isScope then
+    setSpriteState(weapon, hasNoMagSuffix, false)
+  end
 end
 
 local function handleMagazineModel(args)
@@ -86,7 +108,8 @@ local function patchAction(tbl, fnName, weaponField, action)
     action {
       char = self.character,
       weapon = self[weaponField] or self.weapon or self.gun,
-      weaponPart = self.part
+      weaponPart = self.part,
+      detachedPartType = self.partType
     }
     return res
   end
