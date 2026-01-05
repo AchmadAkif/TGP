@@ -9,6 +9,7 @@ local tgpDistribution = {
 			"Glock19", 10,
       "Glock19_Mag", 20,
 			"Glock19_Mag", 10,
+			"x6Elcan", 0.5,
     }
   },
 
@@ -23,6 +24,7 @@ local tgpDistribution = {
     items = {
       "Glock19", 8,
       "Glock19_Mag", 10,
+			"x6Elcan", 1,
     }
   },
   
@@ -32,6 +34,7 @@ local tgpDistribution = {
       "ScarH_Mag", 4,
       "Glock19", 8,
       "Glock19_Mag", 10,
+			"x6Elcan", 1,
     }
   },
   
@@ -54,6 +57,7 @@ local tgpDistribution = {
       "BattleRifle", 0.25,
       "ScarH_Mag", 10,
       "Glock19", 8,
+      "x6Elcan", 6,
     }
   },
 
@@ -89,6 +93,7 @@ local tgpDistribution = {
 			"Glock19_Mag", 20,
 			"Glock19_Mag", 20,
 			"Glock19_Mag", 10,
+      "x6Elcan", 1,
     }
   },
 
@@ -113,10 +118,17 @@ local tgpDistribution = {
     }
   },
 
+  GunStoreAccessories = {
+    items = {
+      "x6Elcan", 6,
+    }
+  },
+
   GunStoreGuns = {
     items = {
       "Glock19", 10,
       "Glock19_Mag", 8,
+      "x6Elcan", 4,
     }
   },
 
@@ -124,6 +136,12 @@ local tgpDistribution = {
     items = {
       "Glock19", 50,
       "Glock19_Mag", 20,
+    }
+  },
+
+  GunStoreRifles = {
+    items = {
+      "x6Elcan", 4,
     }
   },
 
@@ -198,6 +216,7 @@ local tgpDistribution = {
   GarageFirearms = {
     items = {
       "Glock19", 4,
+			"x6Elcan", 1,
     }
   }
 }

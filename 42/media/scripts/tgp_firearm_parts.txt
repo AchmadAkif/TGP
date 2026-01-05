@@ -1,15 +1,5 @@
 module Base
 {
-	item x2Scope
-	{
-		MountOn = Base.HuntingRifle;Base.VarmintRifle;Base.AssaultRifle;Base.AssaultRifle2;Base.Revolver_Long;Base.Shotgun;Base.ShotgunSawnoff;Base.BattleRifle,
-	}
-
-	item x4Scope
-	{
-		MountOn = Base.HuntingRifle;Base.VarmintRifle;Base.AssaultRifle;Base.AssaultRifle2;Base.BattleRifle,
-	}
-
 	item x6Elcan
 	{
 		DisplayCategory = WeaponPart,
@@ -29,25 +19,5 @@ module Base
 		WorldStaticModel = x6Elcan,
 		CanAttach = ItemCodeOnTest.hasScrewdriver,
 		CanDetach = ItemCodeOnTest.hasScrewdriver,
-	}
-
-	item x8Scope
-	{
-		MountOn = Base.HuntingRifle;Base.VarmintRifle;Base.BattleRifle,
-	}
-
-	item RedDot
-	{
-		MountOn = Base.AssaultRifle;Base.AssaultRifle2;Base.BattleRifle,
-	}
-
-	item Laser
-	{
-		MountOn = Base.Pistol;Base.Pistol2;Base.Pistol3;Base.AssaultRifle;Base.AssaultRifle2;Base.BattleRifle;Base.Glock19,
-	}
-
-	item RecoilPad
-	{
-		MountOn = Base.AssaultRifle;Base.AssaultRifle2;Base.BattleRifle;Base.HuntingRifle;Base.VarmintRifle;Base.Shotgun;Base.ShotgunSawnoff;Base.DoubleBarrelShotgun,
 	}
 }
